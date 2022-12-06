@@ -2,3 +2,5 @@ language: node_js
 node_js:
  -16
  -9
+
+npm test
