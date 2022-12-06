@@ -1,3 +1,6 @@
 language: node_js
-rvm:
- - 16
+node_js:
+ -16
+ -9
+
+npm test
