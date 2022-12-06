@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {{!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> --}}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {{>header}}
+    <form action="">
+        <input type="text" id="latitude" placeholder="latitude"><br><br>
+        <input type="text" id="longitude" placeholder="longitude"><br><br>
+        <button type="submit" id="formSubmit">Submit</button>
+        <br>
+        <br>
+        <p id="messageOne"></p>
+        <p id="messageTwo"></p>
+    </form>
+    {{>footer}}
+
+
+    <script src="./js/weather.js"></script>
+</body>
+</html>
